@@ -3,8 +3,8 @@ package com.csei.adapter;
 import java.util.ArrayList;
 import java.util.zip.Inflater;
 
+import com.csei.devicesmanagement.R;
 import com.csei.entity.Device;
-import com.example.com.R;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;

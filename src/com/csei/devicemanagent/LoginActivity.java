@@ -4,7 +4,8 @@ import java.util.HashMap;
 import org.json.JSONException;
 import org.json.JSONObject;
 import com.csei.client.CasClient;
-import com.example.com.R;
+import com.csei.devicesmanagement.R;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;

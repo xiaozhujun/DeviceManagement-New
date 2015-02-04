@@ -2,8 +2,8 @@ package com.csei.devicemanagent;
 
 import java.io.IOException;
 
+import com.csei.devicesmanagement.R;
 import com.csei.views.CameraPreview;
-import com.example.com.R;
 import net.sourceforge.zbar.Config;
 import net.sourceforge.zbar.Image;
 import net.sourceforge.zbar.ImageScanner;
