@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/listitem_devicelist_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        >
+    </TextView>
+        
+    <TextView
+        android:id="@+id/listitem_devicelist_bachnumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listitem_devicelist_number"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        >
+    </TextView>
+
+	<TextView
+        android:id="@+id/listitem_devicelist_devicetype"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listitem_devicelist_bachnumber"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        >
+        
+    </TextView><TextView
+        android:id="@+id/listitem_devicelist_ismaindevice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listitem_devicelist_devicetype"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        >
+    </TextView>
+    
+    <Button 
+        android:id="@+id/listitem_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listitem_devicelist_ismaindevice"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:focusable="false"
+        android:text="删除"
+        android:visibility="gone"
+        ></Button>
+</RelativeLayout>

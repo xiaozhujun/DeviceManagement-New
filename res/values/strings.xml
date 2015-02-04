@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name1">设备管理系统</string>
+      
+    <string name="LOGIN_SECURITY_CHECK">http://www.cseicms.com/rentManagement/j_spring_cas_security_check</string>
+    <string name="USER_GETIMF">http://www.cseicms.com/rentManagement/rs/user/currentUser</string>
+    <string name="LOGIN_SECURITY_CHECK_LOCAL">http://59.69.74.57:8080/rentManagement/j_spring_cas_security_check</string>
+    <string name="USER_GETIMF_LOCAL">http://59.69.74.57:8080/rentManagement/rs/user/currentUser</string>
+    
+    <string name="TRANSPORT_UPLOAD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/transport/upload</string>
+    <string name="TRANSPORT_ADD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/transport/add</string>
+    <string name="STOCK_IN_UPLOAD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/stockIn/upload</string>
+    <string name="STOCK_IN_ADD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/stockIn/add</string>
+    <string name="STOCK_OUT_UPLOAD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/stockOut/upload</string>
+    <string name="STOCK_OUT_ADD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/stockOut/add</string>
+    <string name="INSTALL_UPLOAD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/installation/upload</string>
+    <string name="INSTALL_ADD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/installation/add</string>
+    <string name="UNINSTALL_UPLOAD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/remove/upload</string>
+    <string name="UNINSTALL_ADD_LOCAL">http://59.69.74.57:8080/rentManagement/rs/remove/add</string>
+    
+    <string name="TRANSPORT_UPLOAD">http://www.cseicms.com/rentManagement/rs/transport/upload</string>
+    <string name="TRANSPORT_ADD">http://www.cseicms.com/rentManagement/rs/transport/add</string>
+    <string name="STOCK_IN_UPLOAD">http://www.cseicms.com/rentManagement/rs/stockIn/upload</string>
+    <string name="STOCK_IN_ADD">http://www.cseicms.com/rentManagement/rs/stockIn/add</string>
+    <string name="STOCK_OUT_UPLOAD">http://www.cseicms.com/rentManagement/rs/stockOut/upload</string>
+    <string name="STOCK_OUT_ADD">http://www.cseicms.com/rentManagement/rs/stockOut/add</string>
+    <string name="INSTALL_UPLOAD">http://www.cseicms.com/rentManagement/rs/installation/upload</string>
+    <string name="INSTALL_ADD">http://www.cseicms.com/rentManagement/rs/installation/add</string>
+    <string name="UNINSTALL_UPLOAD">http://www.cseicms.com/rentManagement/rs/remove/upload</string>
+    <string name="UNINSTALL_ADD">http://www.cseicms.com/rentManagement/rs/remove/add</string>
+    
+    <string name="title_activity_main">主界面</string>
+    <string name="title_activity_stock_in">入库</string>
+    <string name="title_activity_stock_out">出库</string>
+    <string name="title_activity_install">安装</string>
+    <string name="title_activity_uninstall">卸载</string>
+    <string name="title_activity_transport">运输</string>
+    <string name="title_activity_history">历史</string>
+    <string name="stock_in">设备入库</string>
+    <string name="stock_out">设备出库</string>
+    <string name="install">设备安装</string>
+    <string name="uninstall">设备卸载</string>
+    <string name="transport">设备运输</string>
+    <string name="input_drivername">请输入司机姓名</string>
+    <string name="input_driverphone">请输入司机电话</string>
+    <string name="input_carnumber">请输入车牌号码</string>
+    <string name="input_address">请输入出发地址</string>
+    <string name="input_destination">请输入目的地址</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="input_passwords">请输入密码</string>
+    <string name="input_removeman">请输入卸载人姓名</string>
+    <string name="input_removestatus">请输入卸载状态</string>
+    <string name="input_installtype">请输入安装类型</string>
+    <string name="input_installman">请输入安装人姓名</string>
+    <string name="input_installstatus">请输入安装状态</string>
+    <string name="submit">登录</string>
+    <string name="show_passwords">显示密码</string>
+    <string name="remember_passwords">记住密码</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="input_deviceId">扫卡添加设备</string>
+    <string name="input_mainDeviceId">扫卡添加主设备</string>
+    <string name="add_device">添加</string>
+    <string name="save">仅保存</string>
+    <string name="upload">保存并上传</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="project_name">设备管理系统</string>
+    <string name="logo_name">塔吊机械</string>
+    <string name="divider">分割线</string>
+    <string name="main_title">设备管理系统</string>
+    <string name="history_title">历史记录</string>
+    <string name="no_record">没有操作记录</string>
+    <string name="select_all">全选</string>
+    <string name="edit">编辑</string>
+    <string name="saoka">扫卡</string>
+    <string name="addDevice">添加设备</string>
+    <string name="addMainDevice">添加主设备</string>
+    <string name="select_store">请选择仓库：</string>
+    <string name="select_site">请选择工地：</string>
+    <string name="input_driverName">请输入司机姓名</string>
+    <string name="input_driverTel">请输入司机号码</string>
+    <string name="input_carNum">请输入车牌号</string>
+    <string name="title_activity_camera">拍照</string>
+    <string name="commit_camera">确认</string>
+    <string name="cancel_camera">取消</string>
+    <string name="title_activity_scan_code">ScanCodeActivity</string>
+
+</resources>

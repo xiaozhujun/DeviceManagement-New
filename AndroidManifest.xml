@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" >
+    </uses-permission>
+
+    <!-- 向SD卡写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 相机相关权限 -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.csei.devicemanagent.LoginActivity"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.csei.devicemanagent.MainActivity"/>
+        <activity android:name="com.csei.devicemanagent.StockinActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="com.csei.devicemanagent.StockoutActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="com.csei.devicemanagent.UninstallActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="com.csei.devicemanagent.TransportActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="com.csei.devicemanagent.InstallActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name="com.csei.devicemanagent.ScanCodeActivity" />
+        <activity android:name="com.csei.devicemanagent.CameraActivity"/>
+    </application>
+
+</manifest>
