@@ -27,9 +27,9 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 
 	private GridView gridView;
-	int[] images = { R.drawable.img_stock_in, R.drawable.img_stock_out,
-			R.drawable.img_install, R.drawable.img_uninstall,
-			R.drawable.img_transport, R.drawable.img_history };
+	int[] images = { R.drawable.img_stock_in_72, R.drawable.img_stock_out_72,
+			R.drawable.img_install_72, R.drawable.img_uninstall_72,
+			R.drawable.img_transport_72, R.drawable.img_history_72 };
 	String[] functions = { "设备入库", "设备出库", "设备安装", "设备卸载", "设备运输", "历史记录" };
 	private String userId;
 	private RelativeLayout account;

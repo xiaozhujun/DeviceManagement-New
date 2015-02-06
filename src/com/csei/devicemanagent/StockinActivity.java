@@ -461,6 +461,9 @@ public class StockinActivity extends Activity{
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		// TODO Auto-generated method stub
 		if(requestCode==0){
+			if(resultCode==RESULT_CANCELED){
+				return;
+			}
 			String code = data.getStringExtra("Code");
 			Log.i("code", code);
 			if (code != null) {

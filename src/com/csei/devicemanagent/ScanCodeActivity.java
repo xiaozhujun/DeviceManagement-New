@@ -92,7 +92,14 @@ public class ScanCodeActivity extends Activity{
 		releaseCamera();
 	}
 	
-	
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		Intent intent = new Intent();
+		setResult(RESULT_CANCELED,intent);
+		releaseCamera();
+		finish();
+	}
 	
 	/** A safe way to get an instance of the Camera object. */
 	public static Camera getCameraInstance() {

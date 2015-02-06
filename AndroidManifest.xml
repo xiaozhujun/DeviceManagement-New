@@ -40,7 +40,8 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="com.csei.devicemanagent.MainActivity"/>
+        <activity android:name="com.csei.devicemanagent.MainActivity"
+            android:screenOrientation="portrait"/>
         <activity android:name="com.csei.devicemanagent.StockinActivity"
             android:windowSoftInputMode="adjustPan" >
         </activity>
