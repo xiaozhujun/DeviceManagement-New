@@ -12,13 +12,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <ImageView
+<ImageView
                 android:id="@+id/imageView_camrea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:src="@drawable/bg_camera" />
-
     </RelativeLayout>
 
 </LinearLayout>

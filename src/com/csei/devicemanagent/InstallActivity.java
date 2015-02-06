@@ -13,9 +13,10 @@ import org.json.JSONObject;
 import com.csei.adapter.InstallDeviceListAdapter;
 import com.csei.application.MyApplication;
 import com.csei.client.CasClient;
-import com.csei.devicesmanagement.R;
 import com.csei.entity.Device;
 import com.csei.util.JSONUtils;
+import com.example.com.R;
+import com.example.com.R.string;
 
 import android.app.Activity;
 import android.app.AlertDialog;

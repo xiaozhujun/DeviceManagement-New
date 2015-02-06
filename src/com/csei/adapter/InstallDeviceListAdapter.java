@@ -1,9 +1,8 @@
 package com.csei.adapter;
 
 import java.util.ArrayList;
-
-import com.csei.devicesmanagement.R;
 import com.csei.entity.Device;
+import com.example.com.R;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;

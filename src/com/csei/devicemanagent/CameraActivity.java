@@ -5,9 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Calendar;
 import java.util.Locale;
-
-import com.csei.devicesmanagement.R;
-
+import com.example.com.R;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;

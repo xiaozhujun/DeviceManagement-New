@@ -6,8 +6,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import com.csei.application.MyApplication;
 import com.csei.client.CasClient;
-import com.csei.devicesmanagement.R;
-
+import com.example.com.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
